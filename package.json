@@ -1,0 +1,27 @@
+{
+  "name": "icecreamfont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9iceCream/iceCreamFont.git"
+  },
+  "author": "monolog7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9iceCream/iceCreamFont/issues"
+  },
+  "homepage": "https://github.com/9iceCream/iceCreamFont#readme",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.7",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.35.3"
+  }
+}
