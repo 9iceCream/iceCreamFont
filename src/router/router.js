@@ -9,6 +9,7 @@ import Home from '../page/Home.vue'
 var router = new VueRouter({
     routes:[
         { path:'/',component:Home},
+        { path:'/login',component:Login},
         {
             path:'/account',
             component:Account,
