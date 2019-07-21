@@ -1,9 +1,14 @@
 <template>
-    <el-carousel :interval="4000" type="card" height="200px">
-        <el-carousel-item v-for="item in 6" :key="item">
-            <h3 class="medium">{{ item }}</h3>
-        </el-carousel-item>
-    </el-carousel>
+    <div>
+        <el-carousel :interval="4000" type="card" height="200px">
+            <el-carousel-item v-for="item in 6" :key="item">
+                <h3 class="medium">{{ item }}</h3>
+            </el-carousel-item>
+        </el-carousel>
+        <el-divider><i class="el-icon-loading"></i></el-divider>
+    </div>
+
+
 </template>
 
 <script>
@@ -27,5 +32,9 @@
 
     .el-carousel__item:nth-child(2n+1) {
         background-color: #d3dce6;
+    }
+
+    .bg-purple-dark {
+        background: #99a9bf;
     }
 </style>
