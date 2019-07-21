@@ -1,10 +1,13 @@
-import vue from 'vue'
-// import App from 'App.vue'
-var temp = {
-    template:"<h1>你好，明天！</h1>"
-}
+import Vue from 'vue'
+import VueRouter from 'vue-router'
 
-var vm = new vue({
+Vue.use(VueRouter)
+
+import App from './App.vue'
+import router from './router/router'
+
+var vm = new Vue({
     el: '#app',
-    render: c => c(temp)
+    render: c => c(App),
+    router
 })
