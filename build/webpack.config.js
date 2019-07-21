@@ -6,5 +6,10 @@ module.exports = {
     output: {
         path: path.resolve(__dirname,'../dist'),
         filename: '[name].bundle.js'
+    },
+    resolve: {
+        alias: {
+            'vue$': 'vue/dist/vue.js' //内部为正则表达式  vue结尾的
+        }
     }
 }
