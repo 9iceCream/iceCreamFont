@@ -4,9 +4,11 @@ import Account from '../page/Account.vue'
 import HomePage from '../page/HomePage.vue'
 import Login from '../page/login/Login.vue'
 import Register from '../page/login/Register.vue'
+import Home from '../page/Home.vue'
 
 var router = new VueRouter({
     routes:[
+        { path:'/',component:Home},
         {
             path:'/account',
             component:Account,
