@@ -54,7 +54,7 @@
         },
         methods:{
             loginShow:function() {
-                this.$router.push('/login')
+                this.$router.push('/user')
             },
             registerShow:function() {
                 console.log("注册")
